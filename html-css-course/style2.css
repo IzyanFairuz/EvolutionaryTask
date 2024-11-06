@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(47, 134, 154);
+    color: #f0f0f0;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(2, 36, 44);
+}
+
+.login-btn {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.login-btn:hover{
+    opacity:0.5;
+}
+
+h1 {
+    font-family: 'Fredoka One', sans-serif;
+    color: #f7d324; /* matching the yellowish color */
+    font-size: 3em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 7px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #f7d324;
+}
+aside{
+    width: 30%;
+    justify-content: left;
+}
+
+.team-btn {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    border: none;
+    float: left;
+    color: #000000;
+    width: auto;
+    height: 36px;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.team-btn:hover {
+    opacity: 0.75;
+}
+
+.team-btn:active {
+    opacity: 0.95;
+}
+
+.team {
+    float: center;
+    display: flex;
+    width: 70%;
+    gap: 30px;
+    padding: 50px;
+}
+
+.member {
+    background-color: rgb(22, 23, 21);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.member p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    line-height: 1.4em;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social a img {
+    width: 25px;
+    height: 25px;
+}
+
+.social a:hover img {
+    filter: brightness(1.3);
+}
