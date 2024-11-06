@@ -1,0 +1,4 @@
+git clone <https://github.com/CS-Society-USM/evaluation-tech.git>
+cd <evaluation-tech>
+git checkout -b <evolutionary-task-pr>
+git push origin <evolutionary-task-pr>
